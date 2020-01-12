@@ -1,0 +1,87 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:1.5em;
+    margin:0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: bottom;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+    color: cornsilk;
+}
+header{
+background:rgb(0, 0, 0);
+padding-top:20px;
+min-height: 40px;
+border-bottom: red 3px solid;
+}
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+footer{
+    background: rgb(0, 0, 0);
+    border-top: red 3px solid;/*A background for the footer and and a red line border above and beside it */
+    min-height: 20px;
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+footer a{
+    text-decoration:none;
+    /*This removes the lines seperating each of the social media icons*/
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float: left;
+    padding:0 20px 0 20px;
+    display:inline;
+}
+header nav{
+    float:right;
+}
+.fab{
+color:white;
+}
+img{
+    border-radius: 100%;
+border-style: none;
+width:5cm;
+height:7cm;
+}
+.text-container{
+    width: 260px;
+            height: 130px;
+            border-right: 1px solid #403F44;
+            float: left;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 43px 0 0;
+}
+.image-container{
+    width: 260px;
+            height: 130px;
+            border-right: 1px solid #403F44;
+            float: left;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 43px 0 0;
+}
+@media(max-width:600px)
+{
+    body{
+        max-width: 100%;
+    border-radius:5px;
+    grid-column: 1;
+    }
+}
